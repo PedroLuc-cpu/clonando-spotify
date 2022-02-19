@@ -5,11 +5,55 @@ box-sizing: border-box;
 list-style: none;
 
 }
+/* ESTILIZANDO HEADER START */
 
+header{
+  position: absolute;
+  background-color: #000000;
+  height: 93px;
+  width: 100%;
+
+  
+}
+.navbar>ul{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20em;
+}
+.navbar>ul>li+li{
+    padding-left: 4em;
+}
+.navbar>ul>details{
+    padding-left: 4em;
+}
+.navbar>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar>ul>details{
+    color: white;
+}
+.navbar>ul>details:hover{
+    color: rgb(13, 214, 13);
+    transition: .2s;
+}
 a:hover{
     color: rgb(13, 214, 13);
     transition: .2s;
 }
+.navbar>ul>li>a:hover{
+    color: rgb(13, 214, 13);
+    transition: .2s; }
+
+/* Estilizando header END */
+
+
+
+/* primeira seçõa (background verde) */
+
 .section-card{
     display: flex;
     flex-wrap: wrap;
