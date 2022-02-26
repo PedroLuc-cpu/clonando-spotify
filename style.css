@@ -8,25 +8,34 @@ list-style: none;
 /* ESTILIZANDO HEADER START */
 
 header{
-  position: absolute;
   background-color: #000000;
-  height: 93px;
   width: 100%;
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
   
+  /* nota(apagar depois) foi uma alteraçõa no header para 
+  alinhamento horinzontal */
 }
+
 .navbar>ul{
    
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 20em;
+    margin-left: 20em;
 }
+/* .navbar{
+    display: flex;
+    align-items: center;
+} */
+
 .navbar>ul>li+li{
-    padding-left: 4em;
+    padding: 20px;
 }
 .navbar>ul>details{
     padding-left: 4em;
+    cursor: pointer;
 }
 .navbar>ul>li>a{
     color: white;
@@ -50,7 +59,57 @@ a:hover{
 
 /* Estilizando header END */
 
+/* Section APRESENTA */
+.apresenta{
+    background-color: #C3F0C9;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    
+}
+.subApresenta{
+    grid-column: 2/3;
+    margin-left: 60px;
+}
+.subApresenta>h1{
+ font-size: 2.3em;
+ font-family: Arial, Helvetica, sans-serif;
+ padding:60px 0 30px 0 ;
+ 
+}
+.subApresenta>h2{
+font-size: 1.3em;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
 
+.subApresenta>p, a{
+    color: #000000;
+    font-size: .9em;
+    padding-bottom: 30px
+}
+/* customozação dos botão start */
+.button{
+    padding: 30px 0 30px 0; 
+}
+.button>input{
+    padding:14px 30px;
+    border-radius: 5em;
+    border-color: transparent;
+    background: black;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: .8em;
+
+}
+
+.button>input:nth-child(2){
+    outline: 2px solid black;
+    background-color: #C3F0C9;
+    font-weight: 700;
+    color: #000000;
+
+}
 
 /* primeira seçõa (background verde) */
 
@@ -157,194 +216,3 @@ hr{
 .card-group>p>a{
     color: #0000008c;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .section-card{
-    display: flex;
-    justify-content: center;
-    column-gap: 20px;
-    row-gap: 20px;
-    flex-wrap: wrap;
-}
-
-.head{
-    background-color: #2E77D0;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-.head>p{
-font-weight: bold;
-padding:5px 0 5px 10px ;
-color: white;
-font-size: .8em;
-
-}
-
-.spacepadding>p{
-    padding: 5px 0 5px 10px;;
-}
-
-
-.paying-available{
-    outline: 1px solid #2E77D0;
-    border-radius: 2px;
-    max-width: 204px;
-    
-}
-.paying-available>p{
-    text-align: center;
-    color: #2E77D0;
-    padding: 2px;
-}
-.card{
-    margin: 10px 10px 50px 10px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid black;
-}
-.card-group{
-    max-width: 264px;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.342);
-}
-.list>li>div{
-    margin-right: 10px;
-}
-.list>li{
-    display: flex;
-    padding: 5px 20px 5px 20px;
-}
-.comprar {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    border-radius: 5em;
-    max-width: 237px;
-    margin: 0 auto;
-}
-.comprar>span{
-    color: white;
-    padding: 10px 0 10px 0;
-}
-.card-group>p{
-    padding-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 60px;
-    font-size: .8em;
-}
-.card-group>p>a{
-    color: black;
-} */
