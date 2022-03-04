@@ -7,4 +7,4 @@ fazendo o site do spotify igual o site do spotify com CSS3 e HTML4
 
 
 <h3>Resultado</h3>
-<img src="img/Spotity_logo.png" alt="">
+  <img src="img/spotify.png" alt="">
