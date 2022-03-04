@@ -9,3 +9,6 @@ PROBLEMAS{
     TENTEI NO HEADER E NA PRIMEIRA SECTION DO SITE. ESPERO RESOLVER AMANHÃ.
 
 }
+
+
+<img src="img/Spotity_logo.png" alt="">
