@@ -111,7 +111,11 @@ font-family: Arial, Helvetica, sans-serif;
     margin-left: 5px;
 
 }
-
+/* porque ser premium */
+.PorquePremium{
+    text-align: center;
+    padding: 100px 0 ;
+}
 /* primeira seçõa (background verde) */
 
 .section-card{
@@ -216,4 +220,60 @@ hr{
 }
 .card-group>p>a{
     color: #0000008c;
+}
+
+.desconto{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.desconto-item{
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 8px;
+    display: flex;
+    padding:2rem 10rem 2rem 2rem;
+}
+.desconto-item>h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.desconto-item>button{
+    background: transparent;
+    margin-left: 10rem;
+    border: 0 ;
+    outline: 2px solid black;
+    padding: 1rem 4rem;
+    border-radius: 5rem;
+    font-weight: 700;
+    
+}
+.footer{
+    background: #000000;
+}
+.nav-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-footer>dl>dt{
+    padding-top: 3rem;
+    color: #ffffffab;
+}
+.nav-footer>dl{
+    margin-bottom: 10rem;
+}
+.nav-footer dl>dd>a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.nav-footer dl>dd>a:hover{
+    color: rgb(13, 214, 13);
+    transition: .2s;
+}
+
+.nav-footer dl>dd{
+    padding: 1rem 0 0 0;
 }
